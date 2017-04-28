@@ -1,16 +1,14 @@
-echo '*********************************************'
-echo '************ Abhishek Kandala****************'
-echo '*********************************************'
+ REM Created by Abishek Kandala
 
 git add .
 git status
 
-SET /P commit= 'Enter the commit message:'
+SET /P commit= Enter the commit message:
 
 git commit -m %commit%
 git diff
 
-SET /P branchname=  'Enter the name of the branch:'
+SET /P branchname= Enter the name of the branch:
 
 git push origin %branchname%
 read
