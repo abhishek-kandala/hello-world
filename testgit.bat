@@ -1,6 +1,6 @@
  REM Created by Abishek Kandala
 
-git add .
+git add -A
 git status
 
 SET /P commit= Enter the commit message:
