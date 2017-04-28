@@ -1,3 +1,5 @@
+echo 'Created by Abhishek Kandala'
+
 git add .
 
 git status
@@ -12,6 +14,6 @@ git diff
 echo 'Enter the name of the branch:'
 read branch
 
-git push origin $branch
+git Pull & push origin $branch
 
 read
