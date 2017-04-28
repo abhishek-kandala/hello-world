@@ -14,6 +14,6 @@ git diff
 echo 'Enter the name of the branch:'
 read branch
 
-git Pull & push origin $branch
+git pull&push origin $branch
 
 read
